@@ -1,0 +1,42 @@
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)//开始一个工作区
+  ****clone      Clone a repository into a new directory //克隆版本库到一个新的目录
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)//工作区变更
+  **** add        Add file contents to the index//添加文件跟踪索引文件
+   mv         Move or rename a file, a directory, or a symlink//移动重命名文件
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index//删除文件
+
+examine the history and state (see also: git help revisions)//检查历史和状态
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern//
+   log        Show commit logs/
+   show       Show various types of objects
+   ****status     Show the working tree status//查询当前版本库文件状态
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches//管理分支
+   ****checkout   Switch branches or restore working tree files//切换分支或者恢复工作区的文件
+   ****commit     Record changes to the repository//记录变更到版本库
+   diff       Show changes between commits, commit and working tree, etc//对比提交的记录
+   merge      Join two or more development histories together//合并提交的记录
+   rebase     Reapply commits on top of another base tip//变基
+   tag        Create, list, delete or verify a tag object signed with GPG//标签
+
+collaborate (see also: git help workflows)//集合
+   fetch      Download objects and refs from another repository//获取<只下载,不合并版本>
+  **** pull       Fetch from and integrate with another repository or a local branch//拉取<下载并合并到本地版本库分支>
+  **** push       Update remote refs along with associated objects//更新本地版本库到远程
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
